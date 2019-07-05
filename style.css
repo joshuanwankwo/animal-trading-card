@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+body {
+  background-image:
+    url("src/halloween-night-owl-hounted.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+main{
+    height: 95vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+}
+/* image */
+.top{
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.0),rgb(0, 0, 0, 0.0), rgba(180, 166, 166, 0.6)), url("src/wbo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.top h2{
+    color: white;
+    position: absolute;
+    left: 58%;
+    top: 30px;
+}
+
+.top h3{
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 30%;
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+}
+/* details */
+.down{
+  background-color: whitesmoke;
+  height: 30%;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.down button{
+  background-color: white;
+  border-radius: 360px;
+  font-size: 35px;
+  border: none;
+  position: absolute;
+  left: 810px;
+  bottom: 175px;
+}
+
+.down button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.down button:active{
+  border: none;
+}
+
+.down h2{
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.down ul{
+  font-family: 'Comfortaa', cursive;
+  list-style: none;
+  padding: 8px;
+  font-size: 12px;
+  margin-left: 50px;
+}
+
+.down ul li{
+  padding-top: 2px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer hr{
+  width: 80%;
+  margin: auto;
+  padding: 0px 5px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0px 5px;
+}
+/* aligning details without table */
+.bold{
+  font-weight:560;
+  font-family: tahoma;
+}
+
+pre{
+  display: inline;
+  padding: 0px 50px;
+}
